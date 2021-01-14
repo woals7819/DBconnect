@@ -1,0 +1,46 @@
+package baord;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String[] title = new String[3];
+		String[] body = new String[3];
+		int tsize = title.length;
+		int bsize = body.length;
+		
+		while (true) {
+			System.out.println("명령어를 입력해주세요");
+			String str = sc.next();
+			if (str.equals("exit")) {
+				System.out.println("프로그램이 종료됩니다.");
+				break;
+			}
+			if (str.equals("add")) {
+				System.out.println("게시물의 제목을 입력해 주세요");
+				for(int i = 0; i < tsize; i++) {
+					
+					title[i] = sc.next();					
+				}
+				
+				System.out.println("게시물의 내용을 입력해 주세요");
+				for(int i = 0; i< bsize; i++) {
+					
+					body[i] = sc.next();										
+				}
+				
+
+				System.out.println("게시물이 등록되었습니다.");
+			}
+			if (str.equals("list")) {
+					System.out.println("제목 :" + title[3]);				
+					System.out.println("내용 :" + body[3]);
+				
+			}
+		}
+
+	}
+
+}

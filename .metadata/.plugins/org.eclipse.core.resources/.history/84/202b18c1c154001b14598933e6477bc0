@@ -1,0 +1,16 @@
+package day01;
+import java.util.Scanner;
+
+public class test {
+
+	public static void main(String[] args) {
+		System.out.println("ss");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String str = sc.next();
+		System.out.println(str); //공백기준으로 잘라서 리턴
+
+	}
+
+}

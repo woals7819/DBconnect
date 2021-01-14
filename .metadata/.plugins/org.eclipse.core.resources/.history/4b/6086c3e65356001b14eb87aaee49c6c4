@@ -1,0 +1,29 @@
+package java_project;
+
+import java.util.Scanner;
+
+public class Board {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		while(true) {
+			System.out.println("명령어를 입력해주세요");
+			String str = sc.next();
+			if(str.equals("exit")) {
+				System.out.println("프로그램이 종료됩니다.");
+				break;
+			}
+			if(str.equals("add")) {
+				System.out.println("게시물의 제목을 입력해 주세요");
+				String title = sc.next();
+				System.out.println("게시물의 내용을 입력해 주세요");
+				String body = sc.next();
+				
+				System.out.println("게시물이 등록되었스니다.");
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.sbs.starter.dto;
+
+public class Article {
+	private long id;
+	private String regDate;
+	private String title;
+	private String body;
+	private long hit;
+}

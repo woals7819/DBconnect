@@ -1,0 +1,5 @@
+decorator_filetext_decoration={name} {dirty\:>}
+decorator_foldertext_decoration={name} {dirty\:>}
+decorator_projecttext_decoration={name} [{repository }{branch}{ branch_status}] {dirty\:>}
+decorator_submoduletext_decoration={name} [{branch}{ branch_status}]{ short_message} {dirty\:>}
+eclipse.preferences.version=1

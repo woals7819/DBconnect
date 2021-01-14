@@ -1,0 +1,33 @@
+package baord;
+
+import java.util.ArrayList;
+
+public class Test {
+
+	public static void main(String[] args) {
+		ArrayList alist = new ArrayList();
+
+		alist.add(5);
+		alist.add(4);
+		alist.add(3);
+		alist.add(2);
+		alist.add(1);
+		alist.add(0);
+
+		int size = alist.size();
+		System.out.println(size);
+		System.out.println(alist.get(2));
+		System.out.println(alist.get(3));
+		
+		alist.remove(0);
+		alist.remove(1);
+		System.out.println(alist.get(2));
+		System.out.println(alist.get(3));
+		
+		for(int i = 0; i < size; i++) {
+			System.out.println(alist);			
+		}
+
+	}
+
+}

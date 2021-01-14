@@ -1,0 +1,9 @@
+package com.sbs.starter.dto;
+
+
+public class Member {
+	private long id;
+	private String regDate;
+	private String loginId;
+	private String loginPw;
+}
